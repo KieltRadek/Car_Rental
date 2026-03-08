@@ -64,6 +64,6 @@ public abstract class Pojazd {
 
     @Override
     public String toString() {
-        return marka + ", typ: " + getClass().getSimpleName().toLowerCase() + ", ile: " + maxKilometry + " km";
+        return marka + ", typ: " + (getClass().getSimpleName().toLowerCase()) + ", ile: " + maxKilometry + " km";
     }
 }
